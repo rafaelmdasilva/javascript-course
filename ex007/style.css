@@ -1,0 +1,25 @@
+body {
+  background-color: rgb(51, 34, 158);
+  color: rgb(233, 233, 233);
+}
+
+.container {
+  /* display: flex; */
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.container > * {
+  font-size: 1.6rem;
+  text-align: center;
+  /* text-decoration: underline; */
+  border: 2px dashed rgb(233, 233, 233);
+  border-radius: 20px;
+  padding: 10px;
+  text-shadow: 1px 1px 4px black;
+}
+
+.input input {
+  font-size: 20px;
+  width: 100px;
+}
