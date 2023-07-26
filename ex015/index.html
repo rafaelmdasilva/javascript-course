@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check Your Eligibility</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./images/icon.png" type="image/png">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Driver's License Eligibility System</h1>
+        <div class="sub-container">
+            <p>Birth Year
+                <input type="number" name="year" id="year">
+                <input type="button" value="Send" onclick="formCheck()">
+            </p>
+            <p>Do you have any disabilities?
+                <input type="radio" name="impaired" id="positive">
+                <label for="">Yes</label>
+                <input type="radio" name="impaired" id="negative" checked>
+                <label for="">No</label>
+            </p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
