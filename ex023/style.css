@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+}
+
+h1 {
+    letter-spacing: -5px;
+}
+
+.container {
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgb(52, 54, 78) 100%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.sub-container {
+    background-color: white;
+    color: rgb(51, 51, 51);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    text-align: left;
+    min-width: 300px;
+    max-width: 400px;
+}
+
+input, select {
+    font-size: 20px;
+}
+
+#results {
+    font-size: 22px;
+    font-weight: bolder;
+}
